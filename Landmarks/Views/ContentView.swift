@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-      LandmarkDetail()
+      LandmarkList()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
