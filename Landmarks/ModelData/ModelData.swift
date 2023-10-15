@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
 @Observable
-class ModelData  {
+class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
 }
 
